@@ -38,6 +38,17 @@ theme:
 nav:
   - Home: index.md
   - Projects:
+    - FOS System Mobile:
+      - Overview: projects/fos-system-mobile/index.md
+      - October 2025: projects/fos-system-mobile/2025-10.md
+      - November 2025: projects/fos-system-mobile/2025-11.md
+      - December 2025: projects/fos-system-mobile/2025-12.md
+      - January 2026: projects/fos-system-mobile/2026-01.md
+      - February 2026: projects/fos-system-mobile/2026-02.md
+      - March 2026: projects/fos-system-mobile/2026-03.md
+      - April 2026: projects/fos-system-mobile/2026-04.md
+      - May 2026: projects/fos-system-mobile/2026-05.md
+      - June 2026: projects/fos-system-mobile/2026-06.md
     - Project A:
       - Overview: projects/project-a/index.md
       - June 2026: projects/project-a/2026-06.md

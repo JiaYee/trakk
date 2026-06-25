@@ -8,6 +8,7 @@ Trakk is a transparent work log system. Each project has a public record of task
 
 | Project | Description |
 | ------- | ----------- |
+| [FOS System Mobile](projects/fos-system-mobile/index.md) | Remittance and member management platform |
 | [Project A](projects/project-a/index.md) | Sample web application rebuild |
 | [Project B](projects/project-b/index.md) | Sample API maintenance and documentation |
 
