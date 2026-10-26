@@ -70,4 +70,13 @@ plugins:
 extra:
   generator: false
 
+extra_javascript:
+  - javascripts/vendor/jspdf.umd.min.js
+  - javascripts/vendor/jspdf.plugin.autotable.min.js
+  - javascripts/log-filter.js
+  - javascripts/log-pdf.js
+
+extra_css:
+  - stylesheets/log-filter.css
+
 copyright: Copyright &copy; Trakk

@@ -1,0 +1,96 @@
+.trakk-log-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.75rem 1.25rem;
+  margin: 0 0 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+  border-radius: 0.25rem;
+  background: var(--md-code-bg-color, rgba(0, 0, 0, 0.04));
+}
+
+.trakk-log-types {
+  border: none;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  flex: 1 1 12rem;
+}
+
+.trakk-log-types legend {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0;
+  margin-bottom: 0.35rem;
+}
+
+.trakk-log-type-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.85rem;
+}
+
+.trakk-type-label {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.trakk-log-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.trakk-log-link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--md-primary-fg-color, #4051b5);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.trakk-log-link-btn:hover {
+  opacity: 0.85;
+}
+
+.trakk-download-pdf {
+  margin-left: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.trakk-download-pdf:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.trakk-row-hidden {
+  display: none;
+}
+
+.trakk-total-secondary {
+  font-weight: normal;
+  font-size: 0.9em;
+  opacity: 0.75;
+}
+
+@media print {
+  .md-header,
+  .md-sidebar,
+  .md-footer,
+  .md-content__button,
+  .trakk-log-toolbar {
+    display: none !important;
+  }
+
+  .trakk-row-hidden {
+    display: none !important;
+  }
+}
